@@ -1,9 +1,7 @@
 ## Perceptron and Winnow algorithm
 The simplest kind of neural network is a single-layer perceptron network.
 <br />This repository implements Single-Layer Vanilla (basic) Perceptron, Averaged Perceptron, and Winnow algorithm from the scratch without using scikit-learn (sklearn) or pandas.
-<br />The given scripts classify the images of handwriten digits (0 ~ 9; 28x28 pixels).
-<br />10 Perceptrons (neurons) are trained that will combinedly learn to classify the handwritten digits.
-<br />Each Perceptron has 785 inputs (28x28 + 1 for bias) and 1 output, and each Perceptron's target is one of the ten digits.
+<br />The provided scripts classify the images of handwriten digits (0 ~ 9; 28x28 pixels). 10 Perceptrons (neurons) are trained that will combinedly learn to classify the handwritten digits. Each Perceptron has 785 inputs (28x28 + 1 for bias) and 1 output, and each Perceptron's target is one of the ten digits.
 
 
 ## How to run the scripts
